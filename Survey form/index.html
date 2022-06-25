@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title">Financial Planning Survey Form</h1>
+        <p id="description">This research about the Filipinos' mindset when it comes to income management</p>
+        <form id="survey-form">
+                <label id="name-label">Full Name<input type="text" id="name" placeholder="Enter your full name" required /></label>
+                <label id="email-label">Email<input type="email" id="email" placeholder="Enter your email" required /></label>
+                <label id="number-label">Mobile Number<input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter you phone Number" required /></label>    
+                <label id="number-label">Age<input type="number" id="number" min="18" max="60" placeholder="Enter your age" required /></label>
+                <label for="radio">
+                    <label>Gender</label>
+                    <label><input type="radio" name="gender" value="Male">Male</label>
+                    <label><input type="radio" name="gender" value="Female">Female</label>
+                </label>
+                <label>
+                    <label>Occupation</label>
+                    <select id="dropdown">
+                        <option value="">select option</option>
+                        <option value="1">Accountant</option>
+                        <option value="2">Agriculturist</option>
+                        <option value="3">Accounting staff</option>
+                        <option value="4">Air-conditioning technician</option>
+                        <option value="5">Animator</option>
+                        <option value="6">Carpenter</option>
+                        <option value="7">Civil engineerntant</option>
+                        <option value="8">Computer programmer</option>
+                        <option value="9">Forester</option>
+                        <option value="10">IT specialist</option>
+                        <option value="11">Others</option>
+                    </select>
+                </label>
+                <h3>Questions</h3>
+                <label id="question1-label">1. Every pay day, what's the first thing that you do with your money?
+                    <label id="radio"><input type="radio" name="answer" value="1" >Pay bills</label>
+                    <label id="radio"><input type="radio" name="answer" value="2" >Save money</label>
+                    <label id="radio"><input type="radio" name="answer" value="3" >Give money to parents</label>
+                    <label id="radio"><input type="radio" name="answer" value="4" >Gimmick</label>
+                </label>
+                <label id="question2-label">2. If you will attend a Money Management session? what do you want to learn? Select all that applies.
+                    <label id="checkbox"><input type="checkbox" value="1" >Budgeting and Spending Plans</label>
+                    <label id="checkbox"><input type="checkbox" value="2" >Dealing with dept</label>
+                    <label id="checkbox"><input type="checkbox" value="3" >Saving & investing</label>
+                    <label id="checkbox"><input type="checkbox" value="3" >Protecting Wealth</label>
+                    <label id="checkbox"><input type="checkbox" value="5" >Others</label>
+                </label>
+                <label for="comment">3. For your own Understanding What is Financial Freedom?</label>
+                <textarea id="comment">Financial Freedom is...</textarea>
+                <button id="submit" type="submit">Submit</button>
+            <form>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+body {
+	background-image: url('https://cdn.corporatefinanceinstitute.com/assets/financial-plan-1024x576.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+	font-family: sans-serif;
+}
+
+h1, p {
+	margin: 1em auto;
+	text-align: center;
+}
+
+form {
+	width: 60vw;
+	max-width: 450px;
+	min-width: 350px;
+	margin: 0 auto;
+	background-color: #1b1c31;
+	border: 1px solid #1b1c31;
+	opacity: 0.9;
+	padding: 2%;
+}
+
+label {
+	display: block;
+	margin: 0.9rem 0;
+}
+input, textarea {
+	background-color: #0a0a23;
+	border: 1px solid #0a0a23;
+	color: #ffffff;
+}
+input, textarea, select {
+	margin: 10px 3px 0 0;
+	width: 100%;
+  min-height: 2em;
+}
+input[type="radio"], input[type="checkbox"] {
+	width: unset;
+	min-height: unset;
+}
+#submit {
+	display: block;
+	margin: 2em auto;
+	height: 2.5em;
+	width: 50%;
+	background-color: #0a0a23;
+	border: 1px solid #0a0a23;
+	color: #ffffff;
+}
